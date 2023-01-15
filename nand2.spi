@@ -1,0 +1,11 @@
+*project netlist
+.subckt NAND2 A B OUT VDD GND
+
+M1 OUT A VDD VDD PCH L=65n W=200n
+M2 OUT B VDD VDD PCH L=65n W=200n
+
+
+M4 M4O B GND GND NCH L=65n W=200n
+M5 OUT A M4O GND NCH L=65n W=200n
+
+.ends

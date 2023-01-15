@@ -1,0 +1,6 @@
+*project netlist
+.subckt INV A B VDD GND
+
+M1 B A VDD VDD PCH L=65n W=200n
+M2 B A GND GND NCH L=65n W=940n
+.ends

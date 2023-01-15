@@ -1,0 +1,13 @@
+*
+
+.LIB KEY=LIB_0 /mentor/tsmc/tsmclp65nm/models/eldo/
+
+.INCLUDE test_bench.sp
+
+.TRAN 0 100n 0 1n
+
+.PROBE TRAN V(X1)
+.PROBE TRAN V(X2)
+.PROBE TRAN V(X3)
+.PROBE TRAN V(X4)
+.PROBE TRAN V(OUT)
